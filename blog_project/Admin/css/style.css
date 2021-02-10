@@ -1,0 +1,89 @@
+.bg-doncky-1 {
+  background-color: #1b1b1b;
+}
+
+.bg-doncky-2 {
+  background-color: #e0e2e3;
+}
+
+.bg-docnky-special {
+  background-color: #3498db;
+}
+
+.text-doncky {
+  color: #3498db;
+}
+
+/* Font size */
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-25 {
+  font-size: 25px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+/* Navbar */
+.logout {
+  color: #fff;
+}
+
+#sidebar {
+  position: relative;
+  width: 20%;
+  transition: 0.8s;
+  overflow: auto;
+}
+
+#sidebar>span {
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 7px;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+.sidebar-links {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.sidebar-link {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  width: 90%;
+  text-align: center;
+  padding: 7px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px #fff;
+  margin-bottom: 15px;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+}
+
+#main {
+  width: 80%;
+  transition: 0.8s;
+  overflow: auto;
+}

@@ -1,0 +1,3 @@
+Admin: Name, (Image), username/email, password.
+
+SiteInfo: logo, facebook, twitter, instagram, youtube, linkedin
